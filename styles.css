@@ -53,6 +53,7 @@ body {
 
 .hero, .image {
     max-width: 500px;
+    max-height: 300px;
 }
 
 .hero-top {
@@ -78,5 +79,44 @@ button{
     flex: 1;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    padding: 0 100px;
 }
+
+.body-header{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    color: #1f2937;
+    font-weight: bolder;
+    font-size: 36px;
+}
+.body-content{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+}
+
+.body-content > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    gap: 8px;
+}
+
+.body-image{
+    border-style: solid;
+    height: 150px;
+    width: 150px;
+    border-color: #3882f6;
+    border-radius: 8px;
+    border-width: 5px;
+}
+
 
