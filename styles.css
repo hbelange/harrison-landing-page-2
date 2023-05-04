@@ -34,6 +34,8 @@ body {
     gap: 100px;
     padding: 0 100px;
     align-items: center;
+    background-color: #1f2937;
+    color: #f9faf8;
 }
 
 .hero {
@@ -41,15 +43,40 @@ body {
     flex-direction: column;
     flex: 1;
     justify-content: center;
+    gap: 10px;
 }
 
 .image {
     display: flex;
     flex: 1;
-    align-items: center;
 }
 
 .hero, .image {
     max-width: 500px;
+}
+
+.hero-top {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.hero-body {
+    font-size: 18px;
+}
+
+button{
+    width: 120px;
+    height: 40px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 8px;
+    border-color: #3882f6;
+}
+
+.body-container{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
 }
 
